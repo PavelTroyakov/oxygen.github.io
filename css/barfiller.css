@@ -1,0 +1,52 @@
+/*плагин*/
+.barfiller {
+    width:370px;
+    height:3px;
+    background:#fcfcfc;
+   
+    position:relative;
+    margin-bottom:50px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5); 
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5); 
+}
+
+.barfiller .fill {
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#333;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+
+.barfiller .tip {
+    margin-top:13px;
+    padding:2px 4px;
+    font-size:11px;
+    color:#333;
+    left:0px;
+    position:absolute;
+    z-index:2;
+    line-height: 20px;
+    
+} 
+
+.barfiller .tip:after {
+    
+    border-color:rgba(0,0,0,.8) transparent;
+    border-width:6px 6px 0 6px;
+    content:"";
+    display:block;
+    position:absolute;
+    left:9px;
+    top:100%;
+    z-index:9
+}
+.wrap {
+    padding: 35px 0;
+    
+}
