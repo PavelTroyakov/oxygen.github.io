@@ -22,9 +22,10 @@ $(function () {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         dots: true,
-        autoplay: 2000
+        autoplay: true,
+        autospeed: 1000
         
 
        
