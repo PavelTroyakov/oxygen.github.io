@@ -6,6 +6,7 @@
         
     });
 
+
     $(".gallery").magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -14,3 +15,20 @@
         }
     });
 
+
+$(function () {
+
+    $('.slider-items').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: 2000
+        
+
+       
+
+
+    });
+});
