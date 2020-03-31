@@ -443,3 +443,307 @@ ul{
     background: url('../images/arrow-right.png') 0 0 / 100% no-repeat;
     margin-right: 37px;
 }
+.our-team__section {
+    margin-top: 100px;
+}
+.our-team {
+    padding: 100px 135px ;
+}
+
+.our-team__items {
+    display: flex;
+    justify-content: space-between;
+
+}
+.our-team__image {
+    margin: 105px 0 35px 0;
+}
+.our-team__name {  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.our-team__position {  
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #C2C2C2;
+    display: flex;
+    justify-content: center;
+}.price-section {
+}
+
+
+.price-plans {
+    background: #F6F8FA;
+    padding: 144px 135px 162px 135px;
+}
+
+.price-items {
+    display: flex;
+    justify-content: space-between;
+}
+.price-item {
+    max-width: 370px;
+    max-height: 583px;
+    background-color: #FFFFFF;
+    margin-top: 91px;
+    padding: 24px 102px 51px 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-item__name {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    color: #242121;
+    margin-left: -257px;
+}
+.price {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 109px;
+    color: #242121;
+    display: flex;
+    margin-bottom: 51px;
+}
+.price span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    margin-top: 15px;
+    color: #242121;
+
+}
+.quantity-logo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+.quantity-design {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+.quantity-domain {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+.quantity-month {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+.quantity-storage {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 69px;
+}
+.price-link a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+
+}
+span.month {  
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+color: #242121;
+margin-top: 67px;
+}
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-form__box {
+    padding: 145px 100px 162px 135px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 469px;
+    outline: none;
+    border:none;
+    margin-top: 94px;
+}
+#form input {
+    border-width: 0px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #373A39;
+    height: 36px;
+    margin-bottom: 32px;
+    color: #000;
+}
+#form textarea {
+    border-width: 0px;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    resize: none;
+    padding:  10px;
+    border-bottom: 2px solid #373A39;
+    outline: none;
+    margin: 32px 0 40px;
+    padding: 5px 5px;
+    color: #000;
+
+}
+.input__form {
+    width: 230px;
+    height: 45px;
+    background-color:#242121; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    color: #FFFFFF; 
+    cursor: pointer;
+    outline: none;
+    border-width: 0px;
+    padding: 0;
+}
+.input__form:hover {
+    color: #FCBB08;;
+}
+#form input::placeholder,
+#form textarea::placeholder {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3.70909px;
+    color: #B8B8B8;
+    text-transform: uppercase;
+}
+.container {
+}
+.footer {
+   
+    padding-top: 110px;
+    background: #373A39;
+}
+.footer-logo  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+   
+    
+}
+.border {
+    width: 150px;
+    height: 2px;
+    background: #FCBB08;
+    margin: 0 auto 99px;
+}
+.footer-menu__list ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    
+}
+.footer-menu__list ul li a{
+    margin-left: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #A8A8A8;
+    
+}
+.contacts a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #A8A8A8;
+    
+}
+.footer-icon {
+    margin: 57px auto 60px;
+    cursor: pointer;
+}
+.footer-bottom {
+    background: #2A2C2B;
+    padding: 42px 0;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CCCCCC;
+}
